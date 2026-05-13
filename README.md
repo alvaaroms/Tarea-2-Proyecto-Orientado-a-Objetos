@@ -1,34 +1,33 @@
-# Programación Orientada a Objetos (POO) - Recuperación
+# ⚔️ Programación Orientada a Objetos (POO) - Recuperación
 
-Proyecto de POO en Java que implementa una jerarquía de clases con herencia, encapsulamiento, sobrescritura de métodos e interfaz adicional.
+Proyecto académico de Java enfocado en la implementación de los pilares de la POO.
 
-## Objetivo
-Demostrar los conceptos de POO mediante personajes con atributos comunes y comportamientos específicos.
+## 🎯 Objetivo
+Demostrar el dominio de los conceptos fundamentales de la Programación Orientada a Objetos mediante la creación de un sistema de combate de personajes con atributos y comportamientos específicos.
 
-## Características
-- Clase abstracta `Personaje` con `nombre`, `vida`, `ataque`
-- Clases hijas: `Guerrero`, `Mago`, `Arquero`
-- Encapsulamiento total (getters/setters)
-- Constructores en todas las clases
-- Sobrescritura de métodos (`atacar`, `mostrarInfo`)
-- Interfaz adicional (por ejemplo `Curable`)
-- Combate entre personajes
+## 🛠️ Características Principales
+- **Jerarquía de clases:** Clase abstracta `Personaje` con subclases: `Guerrero`, `Mago`, `Arquero`.
+- **Encapsulamiento:** Implementación rigurosa de `getters` y `setters`.
+- **Polimorfismo:** Sobrescritura de métodos (`atacar`, `mostrarInfo`).
+- **Interfaces:** Uso de la interfaz `Curable` para extender funcionalidades.
+- **Lógica:** Sistema de combate funcional entre personajes.
 
-## Estructura
+## 📂 Estructura del Proyecto
+```text
 RECUPERACION/
-  README.md
-  RECUPERACION.iml
-  src/
-    Main.java
-    ProgramacionOrientadoObjetos/
-      Arquero.java
-      Combate.java
-      CombateDemo.java
-      Curable.java
-      Guerrero.java
-      Mago.java
-      Personaje.java
-    RequisitosObligatorios/
-      NotasDelCurso.java
+├── README.md
+├── RECUPERACION.iml
+└── src/
+    ├── Main.java
+    ├── ProgramacionOrientadoObjetos/
+    │   ├── Arquero.java
+    │   ├── Combate.java
+    │   ├── CombateDemo.java
+    │   ├── Curable.java
+    │   ├── Guerrero.java
+    │   ├── Mago.java
+    │   └── Personaje.java
+    └── RequisitosObligatorios/
+        └── NotasDelCurso.java
 
 
