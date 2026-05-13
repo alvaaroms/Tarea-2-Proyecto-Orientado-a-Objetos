@@ -15,7 +15,6 @@ Demostrar los conceptos de POO mediante personajes con atributos comunes y compo
 - Combate entre personajes
 
 ## Estructura
-
 RECUPERACION/
   README.md
   RECUPERACION.iml
@@ -31,4 +30,5 @@ RECUPERACION/
       Personaje.java
     RequisitosObligatorios/
       NotasDelCurso.java
+
 
