@@ -15,3 +15,16 @@ Demostrar los conceptos de POO mediante personajes con atributos comunes y compo
 - Combate entre personajes
 
 ## Estructura
+
+Main.java
+    ProgramacionOrientadoObjetos/
+      .git/
+      Arquero.java
+      Combate.java
+      CombateDemo.java
+      Curable.java
+      Guerrero.java
+      Mago.java
+      Personaje.java
+    RequisitosObligatorios/
+      NotasDelCurso.java
